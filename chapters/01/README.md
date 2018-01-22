@@ -1,6 +1,9 @@
 # Setup Jest
+<<<<<<< HEAD
 
 Boilerplate code [here](https://github.com/andrewjmead/react-course-2-boilerplate)
+=======
+>>>>>>> df7b322f1c5656d02e6605a4455a26fd5c25df66
     
     npm run test
     
