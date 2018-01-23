@@ -39,6 +39,7 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.9",
     "jest": "^22.1.4",
-    "react-addons-shallow-compare": "^15.6.2"
+    "react-addons-shallow-compare": "^15.6.2",
+    "react-test-renderer": "^16.2.0"
   }
 }
