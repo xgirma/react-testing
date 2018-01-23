@@ -2,11 +2,11 @@
 
 Testing React component is very different from testing `actions` and `reducers`. 
 
-    testing what renderes under what condition?
+    1. testing what renderes under what condition?
     
-    we also test how the component react to user interactions?
+    2. we also test how the component react to user interactions?
     
-    if i change a filter is the state of the component actually changing?
+    3. if I change a filter is the state of the component actually changing?
     
 ## Snapshot testing
 
@@ -188,172 +188,10 @@ ShallowWrapper {
         </NavLink>,
       ],
     },
-    "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Expensify",
-        },
-        "ref": null,
-        "rendered": "Expensify",
-        "type": "h1",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "activeClassName": "is-active",
-          "ariaCurrent": "true",
-          "children": "Dashboard",
-          "exact": true,
-          "to": "/",
-        },
-        "ref": null,
-        "rendered": "Dashboard",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "activeClas": true,
-          "activeClassName": "active",
-          "ariaCurrent": "true",
-          "children": "Create Expense",
-          "sName": "is-active",
-          "to": "/create",
-        },
-        "ref": null,
-        "rendered": "Create Expense",
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "activeClassName": "is-active",
-          "ariaCurrent": "true",
-          "children": "Help",
-          "to": "/help",
-        },
-        "ref": null,
-        "rendered": "Help",
-        "type": [Function],
-      },
+    
     ],
     "type": "header",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <h1>
-            Expensify
-          </h1>,
-          <NavLink
-            activeClassName="is-active"
-            ariaCurrent="true"
-            exact={true}
-            to="/"
-          >
-            Dashboard
-          </NavLink>,
-          <NavLink
-            activeClas={true}
-            activeClassName="active"
-            ariaCurrent="true"
-            sName="is-active"
-            to="/create"
-          >
-            Create Expense
-          </NavLink>,
-          <NavLink
-            activeClassName="is-active"
-            ariaCurrent="true"
-            to="/help"
-          >
-            Help
-          </NavLink>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Expensify",
-          },
-          "ref": null,
-          "rendered": "Expensify",
-          "type": "h1",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "activeClassName": "is-active",
-            "ariaCurrent": "true",
-            "children": "Dashboard",
-            "exact": true,
-            "to": "/",
-          },
-          "ref": null,
-          "rendered": "Dashboard",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "activeClas": true,
-            "activeClassName": "active",
-            "ariaCurrent": "true",
-            "children": "Create Expense",
-            "sName": "is-active",
-            "to": "/create",
-          },
-          "ref": null,
-          "rendered": "Create Expense",
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "activeClassName": "is-active",
-            "ariaCurrent": "true",
-            "children": "Help",
-            "to": "/help",
-          },
-          "ref": null,
-          "rendered": "Help",
-          "type": [Function],
-        },
-      ],
-      "type": "header",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-      },
-    },
-  },
+  }, // ... 
 }
 `;
 ```
