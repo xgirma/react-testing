@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Header correctly 1`] = `
+<header>
+  <h1>
+    Expensify
+  </h1>
+  <NavLink
+    activeClassName="is-active"
+    ariaCurrent="true"
+    exact={true}
+    to="/"
+  >
+    Dashboard
+  </NavLink>
+  <NavLink
+    activeClas={true}
+    activeClassName="active"
+    ariaCurrent="true"
+    sName="is-active"
+    to="/create"
+  >
+    Create Expense
+  </NavLink>
+  <NavLink
+    activeClassName="is-active"
+    ariaCurrent="true"
+    to="/help"
+  >
+    Help
+  </NavLink>
+</header>
+`;
+
+exports[`should render Header correctly 2`] = `
+<header>
+  <h1>
+    Expensify
+  </h1>
+  <NavLink
+    activeClassName="is-active"
+    ariaCurrent="true"
+    exact={true}
+    to="/"
+  >
+    Dashboard
+  </NavLink>
+  <NavLink
+    activeClas={true}
+    activeClassName="active"
+    ariaCurrent="true"
+    sName="is-active"
+    to="/create"
+  >
+    Create Expense
+  </NavLink>
+  <NavLink
+    activeClassName="is-active"
+    ariaCurrent="true"
+    to="/help"
+  >
+    Help
+  </NavLink>
+</header>
+`;
+
+exports[`should render Header correctly2 1`] = `
+<header>
+  <h1>
+    Expensify
+  </h1>
+  <NavLink
+    activeClassName="is-active"
+    ariaCurrent="true"
+    exact={true}
+    to="/"
+  >
+    Dashboard
+  </NavLink>
+  <NavLink
+    activeClas={true}
+    activeClassName="active"
+    ariaCurrent="true"
+    sName="is-active"
+    to="/create"
+  >
+    Create Expense
+  </NavLink>
+  <NavLink
+    activeClassName="is-active"
+    ariaCurrent="true"
+    to="/help"
+  >
+    Help
+  </NavLink>
+</header>
+`;
